@@ -264,7 +264,7 @@ const Question = () => {
   };
 
   return (
-    <div> <img className="absolute inset-x-2 top-0 w-40 h-auto" src="logopkss.png"></img>
+    <div> <img className="absolute inset-x-2 top-0 w-40 h-auto" src="logopt.png"></img>
     <div className="relative bg-scroll">
     <div className="px-2">
       <Tabs.Group
@@ -279,7 +279,7 @@ const Question = () => {
             <div className="w-80 h-auto bg-white rounded-xl shadow-2xl">
               <div className="w-full">
                 <div className="p-4 items-center justify-between">
-                  <div className="flex-1">
+                  <div className="flex-1"> 
                     <p className="font-bold text-2xl text-center ">Question {index + 1}/14</p>
                     <hr
                       className="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />

@@ -8,7 +8,7 @@ const LoginForm = () => {
     <div className="relative h-auto w-80 bg-white rounded-xl shadow-2xl sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
       <div className="p-10">
         <form className="space-y-6" action="#">
-          <img className="static bg-center w-1/2 h-auto mx-8" src="logo-.png" alt="logo"/>
+          <img className="justify-items-center w-25 h-auto mx-2" src="logopt.png" alt="logo"/>
           <h5 className="text-xl font-medium text-gray-900 dark:text-white text-center">
             E-Learning PKSS
           </h5>

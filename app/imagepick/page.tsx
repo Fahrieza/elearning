@@ -39,8 +39,9 @@ const CameraCapture = () => {
   };
 
   return (
+    <div>
+    <img className="absolute inset-x-2 top-0 w-40 h-auto" src="logopt.png"></img>
     <div className="relative flex items-center justify-center">
-      <img className="absolute inset-x-2 top-0 w-40 h-auto" src="logopkss.png"></img>
         <div className="relative bg-white shadow-2xl p-4 rounded-xl">
           <video ref={videoRef} autoPlay muted playsInline style={{ transform: 'scaleX(-1)' }} />
           <div className='pt-4'>
@@ -48,6 +49,7 @@ const CameraCapture = () => {
           </div>
            {/* <canvas ref={canvasRef} style={{ display: 'none' }} /> */}
         </div>
+    </div>
     </div>
   );
 };
