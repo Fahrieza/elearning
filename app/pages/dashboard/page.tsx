@@ -70,7 +70,7 @@ const Dashboard = () => {
                       <td className="py-2 px-4">4</td>
                       <td className="py-2 px-4">70</td>
                     </tr>
-                    {/* Add more data rows as needed */}
+                    {/* Add more data rows as needed*/ }
                   </tbody>
                 </table>
               </div>
